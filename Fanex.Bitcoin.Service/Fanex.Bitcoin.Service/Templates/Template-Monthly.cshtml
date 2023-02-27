@@ -1,0 +1,17 @@
+﻿@using Fanex.Bitcoin.Business.Models;
+
+@{
+    MailModel mailModel = Model.Item1;
+}
+<div>
+    Dear All, <br /><br />
+
+    Kindly download attached file for Bitcoin Monthly Report from @mailModel.FromDate.ToString("MM/dd/yyyy") to @mailModel.ToDate.ToString("MM/dd/yyyy") <br /><br />
+
+    Thanks & Best Regards, <br /><br />
+
+    ---------------------------------------------------------------------- <br />
+    <i>
+        This is an auto-mail from ONEworks Report System. Please do not reply.
+    </i>
+</div>

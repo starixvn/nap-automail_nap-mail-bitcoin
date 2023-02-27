@@ -1,0 +1,5 @@
+﻿<Functions>
+  <Function Name="Auto Mail - Score Box">
+    <Setting Key="Acc_Rpt_Automail_Bitcoin" SpName="Acc_Rpt_Automail_Bitcoin" DbName="DBACC.bodb02.bodbAdminNet" Timeout="0"></Setting>
+  </Function>
+</Functions>
