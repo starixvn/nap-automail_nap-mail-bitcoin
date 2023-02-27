@@ -1,0 +1,17 @@
+﻿@using Fanex.Bitcoin.Business.Models;
+
+@{
+    MailModel mailModel = Model.Item1;
+}
+<div>
+    Dear All, <br /><br />
+
+    Kindly download attached file for Bitcoin Daily Report on @mailModel.Yesterday.ToString("MM/dd/yyyy") <br /><br />
+
+    Thanks & Best Regards, <br /><br />
+
+    ---------------------------------------------------------------------- <br />
+    <i>
+        This is an auto-mail from ONEworks Report System. Please do not reply.
+    </i>
+</div>
